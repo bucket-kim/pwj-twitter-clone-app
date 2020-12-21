@@ -2,3 +2,57 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: dodgerblue;
+}
+
+.navigation-container {
+    width: 20%;
+    background-color: aqua;
+    max-width: 120px;
+    min-width: 80px;
+}
+
+.main {
+    width: 60%;
+    background-color: pink;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-container {
+    background-color: tomato;
+    flex: .65;
+}
+
+.main-search-container {
+    background-color: white;
+    height: 70px;
+    margin: 20px;
+}
+
+.main-list {
+    height: 500px;
+    margin: 20px;
+    background-color: tan;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: snow;
+    margin: 10px;
+}
+
+.sidebar-window {
+    width: 200px;
+    height: 500px;
+    margin: 20px;
+    background-color: teal;
+}
